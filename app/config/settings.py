@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 
-DATABASES = db.POSTGRESQL
+DATABASES = db.SQLITE
 
 '''
 DATABASES = {
