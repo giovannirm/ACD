@@ -13,5 +13,5 @@ def login(request):
         if user == 'root' and password == '123':
             return redirect('home')
         else:
-            return redirect('login')
-    return render(request,'login.html')
+            return redirect('home.html')
+    return render(request,'home.html')
